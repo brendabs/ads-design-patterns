@@ -1,8 +1,12 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        Analysis a = new Analysis();
+import Reports.ReportPDF;
+import Reports.ReportPNG;
+import Reports.ReportXLSX;
 
-        // a.setReportMethod(new RelatorioPDF());
-        a.createAnalysis();
-    }
+public class App {
+  public static void main(String[] args) throws Exception {
+    Analysis a = new Analysis();
+
+    a.setReportMethod(new ReportPDF());
+    a.createAnalysis();
+  }
 }

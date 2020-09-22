@@ -1,5 +1,7 @@
+import Reports.Report;
+
 public class Analysis {
-  // private Relatorio report;
+  private Report report;
 
   private void getInputData () {
     System.out.println("Coletando dados dos inputs...");
@@ -9,18 +11,18 @@ public class Analysis {
     System.out.println("Processando os dados...");
   }
 
-  private void saveData () {
-    System.out.println("Salvando os dados...");
+  private void saveAnalysis () {
+    System.out.println("Salvando a análise...");
   }
 
   public void createAnalysis () {
     this.getInputData();
     this.processData();
-    this.saveData();
-    // this.report.export();
+    this.saveAnalysis();
+    this.report.generateReport();
   }
 
-  // public void setReportMethod (Relatorio reportType) {
-  //   this.report = reportType;
-  // }
+  public void setReportMethod (Report reportType) {
+    this.report = reportType;
+  }
 }
