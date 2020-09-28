@@ -4,7 +4,7 @@ Atividade desenvolvida como requisito parcial de avaliação na disciplina Anál
 
 ## Objetivo
 
-O objetivo foi a implementação de um Caso de Uso representando um sistema de gerenciamento de fertilidade do solo.
+O objetivo foi a implementação de um Caso de Uso representando um sistema para gerenciamento de fertilidade do solo.
 
 ## Design Patterns Utilizados
 
@@ -20,5 +20,5 @@ O objetivo foi a implementação de um Caso de Uso representando um sistema de g
 
 ## Autores
 
-* brendabs => Brenda Braga de Santana
-* ederwms => Éder Willian Moreira Sousa
+* [brendabs](https://github.com/brendabs) => Brenda Braga de Santana
+* [ederwms](https://github.com/ederwms) => Éder Willian Moreira Sousa
