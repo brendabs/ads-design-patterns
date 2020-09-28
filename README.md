@@ -4,7 +4,7 @@ Atividade desenvolvida como requisito parcial de avaliação na disciplina Anál
 
 ## Objetivo
 
-O objetivo foi a implementação de um Caso de Uso representando o cadastro de uma Análise de Solo.
+O objetivo foi a implementação de um Caso de Uso representando um sistema de gerenciamento de fertilidade do solo.
 
 ## Design Patterns Utilizados
 
